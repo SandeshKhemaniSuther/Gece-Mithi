@@ -17,7 +17,8 @@ export const pastPapersData = [
         title: "Semester 2",
         desc: "Early Childhood & Content.",
           link: "https://drive.usercontent.google.com/download?id=1J-I9bnzqFmSnnNLz1qoLFeFppUJUttla&export=download&authuser=0&confirm=t&uuid=871c0b7a-0a9e-47a9-bf4f-3438805ceb15&at=ANTm3cwBvMfUfpuV1v8xx805dC9M:1768546810108",
-      },
+       color: "bg-blue-50 text-blue-700 border-blue-200",
+        },
     ],
   },
   {
