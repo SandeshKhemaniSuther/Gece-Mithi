@@ -15,7 +15,7 @@ const Trainings = () => {
 
     const masterTrainers = [
         { id: 1, name: "Mr. Jeetandar Maheshwari", role: "Assistant Professor" },
-        { id: 2, name: "Mr. Karno Ji Mahraj", role: "Assistant Professor" },
+        { id: 2, name: "Mr. Karno Ji Maharaj", role: "Assistant Professor" },
         { id: 3, name: "Mr. Krishan Lal", role: "Rtd. Lecturer" },
         { id: 4, name: "Mr. Muhammad Essa", role: "Taluka Education Officer (M) Mithi" },
         { id: 5, name: "Mr. Muhammad Sidique", role: "Head master" },

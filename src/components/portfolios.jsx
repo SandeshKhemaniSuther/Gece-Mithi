@@ -12,7 +12,7 @@ const Portfolio = () => {
         <>
             <div className="text-center mb-16 pt-8 pb-10">
                 <h1 className="text-4xl font-extrabold text-yellow-400 tracking-tighter content-entry-animation sm:text-5xl">
-                  Welcome to <span className="text-green-700"> B.Ed. (hons)</span>
+                  Welcome to <span className="text-green-700"> B.Ed. (Hons)</span>
                 </h1>
                 
                 {/* Now this will work because 'title' is defined above */}

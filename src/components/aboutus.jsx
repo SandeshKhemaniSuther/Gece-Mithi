@@ -205,7 +205,8 @@ const AboutUs = () => {
         {
             batch: "Batch 2k21",
             members: [
-                { name: "Miss Rameela" }, { name: "Miss. Sameeta" }
+                { name: "Miss Rameela" }, { name: "Miss. Sameeta" },
+                  { name: "Mr. Satram Das" }, { name: "Mr. Mahadev" }
             ]
         },
         {

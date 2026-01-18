@@ -51,6 +51,7 @@ const Navbar = ({ contentType, setContentType }) => {
         { type: 'pastPaper', label: 'Past Papers' },
         // { type: 'portfolio', label: 'Portfolios' },
         { type: 'tools', label: 'Tools' },
+        { type: 'studentportal', label: 'Portal' },
         { type: 'contact', label: 'Contact' },
     ]), []);
 

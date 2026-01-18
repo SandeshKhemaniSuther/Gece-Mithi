@@ -170,7 +170,7 @@ export const toolsData = [
     title: "Lesson Plan 02",
     desc: "Alternative Lesson Plan format (Template 2).",
     // 👇 YAHAN APNA GOOGLE DRIVE LINK PASTE KAREIN
-    link: "https://drive.usercontent.google.com/download?id=1p5zleHjk6VBff1yi7yRuTJn6vq_2pGeR&export=download&authuser=0&confirm=t&uuid=909a36dd-c3de-445b-b90c-79502333ad5e&at=ANTm3cwQw8f5wHLpFgrkQLoAYpSK:1768546432172",
+    link: "https://drive.usercontent.google.com/download?id=1sdvB6ujJErXitrw82e3TS8RVVV3usisv&export=download&authuser=0&confirm=t&uuid=eb4b3e48-f668-4a51-99f7-a75de5eb6245&at=ANTm3cwWXr4pR_vkiu0kR5-2oC09:1768578536584",
     icon: "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10",
     color: "bg-teal-50 text-teal-600 border-teal-100",
   },
@@ -234,7 +234,7 @@ const academicDataDownload = [
         name: "EED-351 Sindhi",
         outlineLink:
           "https://drive.usercontent.google.com/download?id=1r3qmua59jTVuBqjnpp6fjydOIfhCn6QK&export=download&authuser=2&confirm=t&uuid=317e9927-de42-4ce4-8cb8-ce0843aa97a6&at=ANTm3cxgt9q4EZIDgRn-1L9jRXet:1768475157726",
-        notesLink: "https://drive.google.com/d/Y1S1C2_Notes",
+        notesLink: "https://drive.usercontent.google.com/download?id=1EYj6D0DVbDFSJ7mnyPsKWVwSw8dQWoqk&export=download&authuser=0&confirm=t&uuid=d4fc6b22-8aca-4056-9732-7680db1bc26a&at=ANTm3cx46cwrQAVvCMEQCFA__HAV:1768578198821",
         pastPaperLink: "https://drive.google.com/d/Y1S1C2_PP",
       },
       {
@@ -289,7 +289,7 @@ const academicDataDownload = [
         name: "EED-321 Methods of Teaching Islamic Studies",
         outlineLink:
           "https://drive.usercontent.google.com/download?id=1iqUlZEw8IUF3elzEO9nHfvjPNWQutCdz&export=download&authuser=2&confirm=t&uuid=f4e2353b-5719-45f6-92f4-4b4a561c0564&at=ANTm3cwAsVInS_bjhDa9kJAjqYef:1768475349323",
-        notesLink: "https://drive.google.com/d/Y1S2C6_Notes",
+        notesLink: "https://drive.usercontent.google.com/download?id=1jPB-1UIXxs20zzFSwn4lh2LtXzHPzbrJ&export=download&authuser=0&confirm=t&uuid=71641933-e807-4556-95b3-b252fae94b92&at=ANTm3czII3aThszF8qx_ajTyfRQa:1768563335077",
         pastPaperLink: "https://drive.google.com/d/Y1S2C6_PP",
       },
     ],
@@ -322,7 +322,7 @@ const academicDataDownload = [
       {
         name: "EED-424 Teaching of General Science",
         outlineLink:
-          "https://drive.usercontent.google.com/download?id=10MPWD6EhGJrDMDraygrPziJWbFg5PZnW&export=download&authuser=2&confirm=t&uuid=14c82b6b-6909-4c6e-9aa5-0df5c952f68c&at=ANTm3cwFPz_SuKU4Xg72W38nopXE:1768475485449",
+          "https://drive.usercontent.google.com/download?id=1SyhHeoz9BAvNEnQVuTEtjuaaokmAI4QD&export=download&authuser=0&confirm=t&uuid=77b07a71-b279-4833-9308-89057af423cf&at=ANTm3cxgy4sDyv5o434tHwX2plyn:1768562874051",
         notesLink: "https://drive.usercontent.google.com/download?id=1DnjfzfcgZH1_N-WugF1hVUVaLPW8xnhh&export=download&authuser=0&confirm=t&uuid=f7c43593-d0dd-41da-b571-130adbeaddc1&at=ANTm3cxnTgleibcOSi5Udg1VUYx1:1768544624187",
         pastPaperLink: "https://drive.google.com/d/Y2S3C4_PP",
       },
@@ -330,7 +330,7 @@ const academicDataDownload = [
         name: "EED-451 ICT in Education",
         outlineLink:
           "https://drive.usercontent.google.com/download?id=1U73J9AVpAMu-zEEvi1LPSrVMr4BbR5CA&export=download&authuser=2&confirm=t&uuid=0b839c56-6aaa-44d8-bcd1-d119c13d300b&at=ANTm3cx1CAXI8Irxnh13HmhzfGNg:1768475578791",
-        notesLink: "https://drive.usercontent.google.com/download?id=1DnjfzfcgZH1_N-WugF1hVUVaLPW8xnhh&export=download&authuser=0&confirm=t&uuid=f7c43593-d0dd-41da-b571-130adbeaddc1&at=ANTm3cxnTgleibcOSi5Udg1VUYx1:1768544624187",
+        notesLink: "https://drive.usercontent.google.com/download?id=1aCUGn-vHE2vrY7GzvYGJ_nVKO-ol6FV1&export=download&authuser=0&confirm=t&uuid=0340ca23-b126-4e4a-aa17-935d98d26c9b&at=ANTm3cxMmAxCkEDi2kkKl6hGlReV:1768587463267",
         pastPaperLink: "https://drive.google.com/d/Y2S3C5_PP",
       },
       {
@@ -364,7 +364,7 @@ const academicDataDownload = [
         name: "EED-425 Classroom Assessment",
         outlineLink:
           "https://drive.usercontent.google.com/download?id=1YPBdf75Q_TbIVjP0cWwR8fquDTHyZ3ra&export=download&authuser=2&confirm=t&uuid=a66b7f5c-497b-47ca-91e7-d5ab92cba27e&at=ANTm3cwKvAcW1I2tpCshduvK52yC:1768475868115",
-        notesLink: "https://drive.google.com/d/Y2S4C1_Notes",
+        notesLink: "https://drive.usercontent.google.com/download?id=1SV-Oj7BmPAfoPT9pTP1tC8j4pIe4q4Kx&export=download&authuser=0&confirm=t&uuid=de19bab3-ce40-4aca-91f8-0bc2887169c5&at=ANTm3cyAX5eS-xK5MbuI-22QsqOf:1768622243121",
         pastPaperLink: "https://drive.google.com/d/Y2S4C1_PP",
       },
       {
@@ -474,7 +474,7 @@ const academicDataDownload = [
         name: "EED-586 Reading Difficulties",
         outlineLink:
           "https://drive.usercontent.google.com/download?id=1Ri6UwuklOcAWAFMWn6DwumvI7gBvoCXt&export=download&authuser=2&confirm=t&uuid=149ca2b3-2463-4341-a922-e6c17ef9dbaa&at=ANTm3cxPnErBUrBZyyE4x5bKD8xq:1768476492271",
-        notesLink: "https://drive.google.com/d/Y3S6C3_Notes",
+        notesLink: "https://drive.usercontent.google.com/download?id=1JErXKNzoZYQG3q48TooiqNWlotfB3AgZ&export=download&authuser=0&confirm=t&uuid=d3b83768-d1dc-448a-b638-79942725ccff&at=ANTm3cw-FKod_gAL28L5zs9JLTYS:1768623159757",
         pastPaperLink: "https://drive.google.com/d/Y3S6C3_PP",
       },
     ],
@@ -493,7 +493,7 @@ const academicDataDownload = [
       {
         name: "EED-655 Pedagogy of Biology & Physical Science",
         outlineLink:  "https://drive.usercontent.google.com/download?id=1ekdkjk-9q_zWW_061JYyHKA97qTsTTQq&export=download&authuser=2&confirm=t&uuid=8bcfbfaf-268f-4a1a-8459-35daa0391ed9&at=ANTm3cwOxqX6sMZvKpPQVsuANfCN:1768476581727",
-        notesLink: "https://drive.usercontent.google.com/download?id=1guqPN1ZwkeWAya59NwXVyxhUm3CjJyrL&export=download&authuser=0&confirm=t&uuid=d8d6a59e-ee1c-443c-8bf0-2276b1b594df&at=ANTm3cwdnsePfWJMu5gWMtU5AZZ2:1768545225583",
+        notesLink: "https://drive.usercontent.google.com/download?id=1Obuvzg2v5z_M3wxrq178ZMXjGZnZMMPf&export=download&authuser=0&confirm=t&uuid=182ce788-3169-4107-aa64-50a7a61700ff&at=ANTm3cz58YCQ3tRrq95ahI-0Deq9:1768563494370",
         pastPaperLink: "https://drive.google.com/d/Y4S7C3_PP",
       },
       {
@@ -506,7 +506,7 @@ const academicDataDownload = [
       {
         name: "EED-683 Reading Assessment",
         outlineLink:
-           "https://drive.usercontent.google.com/download?id=1-zICQtQ3GIaBu2zrpWlI9i7_3tgE1gnF&export=download&authuser=2&confirm=t&uuid=4bbdecf1-0290-4787-97f2-a361ad3bc402&at=ANTm3cyptdnI-6mil--2G47N1Edx:1768476619485",
+           "https://drive.usercontent.google.com/download?id=1QsWYdqQdPq2DQ49Tb5qFhaAKfX40KvEi&export=download&authuser=0&confirm=t&uuid=b2e84019-e353-43d3-a56d-153f1d81ea2d&at=ANTm3cyvvasCyIvfBVlOp1zS7tJP:1768562640653",
         notesLink: "https://drive.usercontent.google.com/download?id=1W8rw0a3S8i6__Zjw4HMiEZP5kGJebB8S&export=download&authuser=0&confirm=t&uuid=be04dba3-83f7-4b09-88f2-820b10088f13&at=ANTm3cz31cKrR4Zoyi7-F5sSwy76:1768545294699",
         pastPaperLink: "https://drive.google.com/d/Y4S7C5_PP",
       },

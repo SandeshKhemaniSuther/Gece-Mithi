@@ -1,26 +1,28 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-
-// --- YE DO LINES ADD KAREIN ---
-import { getFirestore } from "firebase/firestore";
+// === YE DO LINES ZAROORI HAIN (Inhein mat hatana) ===
 import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAeVo8GELUKz9R3v88pGygg7FStf_dWHD4",
-  authDomain: "gece-portal.firebaseapp.com",
-  projectId: "gece-portal",
-  storageBucket: "gece-portal.firebasestorage.app",
-  messagingSenderId: "168643740246",
-  appId: "1:168643740246:web:fff3661626b58c30f971f7",
-  measurementId: "G-S2T8GF2CJ6"
+  apiKey: "AIzaSyA9a0hN0oH-lLRebHBCautHFs8tmivb7Wk",
+  authDomain: "gecemithi-a9f02.firebaseapp.com",
+  projectId: "gecemithi-a9f02",
+  storageBucket: "gecemithi-a9f02.firebasestorage.app",
+  messagingSenderId: "431640633767",
+  appId: "1:431640633767:web:a3ad5ff964b9e820189682",
+  measurementId: "G-D5FQ4ZY87C"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
-// Initialize Services
-export const db = getFirestore(app); // Ab ye chalega kyunki upar import kiya hai
-export const auth = getAuth(app);    // Ye bhi chalega
+// === AUTH AUR DATABASE INITIALIZE KAREIN ===
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+// === EXPORT KAREIN (Taake baaki files use kar sakein) ===
+export { auth, db, app, analytics };

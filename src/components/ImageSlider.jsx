@@ -1,7 +1,7 @@
 // ImageSlider.jsx
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // Icons ke liye
-import { sliderData } from "../data"; // Apna data import karein
+import { sliderData } from "../data.js"; // Apna data import karein
 
 const ImageSlider = () => {
   const [current, setCurrent] = useState(0);

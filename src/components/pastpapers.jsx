@@ -11,7 +11,7 @@ const PastPaper = () => {
             {/* --- Header Section --- */}
             <div className="text-center mb-12 pt-6">
                 <span className="block text-[#FFD700] font-bold tracking-widest uppercase text-xs md:text-sm mb-2">
-                    Welcome to B.Ed. (hons)
+                    Welcome to B.Ed. (Hons)
                 </span>
                 <h1 className="text-3xl md:text-5xl font-extrabold text-yellow-500 tracking-tight mb-4">
                     Past <span className="text-[#004d00]">Examination Papers</span>

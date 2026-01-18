@@ -5,7 +5,7 @@ import { DownloadLink } from './uicomponents';
 
 const Notes = () => {
     const linkKey = 'notesLink';
-    const buttonText = 'Downlode';
+    const buttonText = 'Download';
     const title = 'Academic Notes';
     const descriptionText = 'Access lecture notes and supporting material for B.Ed (Hons) subjects across 8 semesters.';
 
@@ -13,7 +13,7 @@ const Notes = () => {
         <>
             <div className="text-center mb-16 pt-8 pb-10">
                 <h1 className="text-4xl font-extrabold text-yellow-400 tracking-tighter content-entry-animation sm:text-5xl">
-                  Welcome to <span className="text-green-700"> B.Ed. (hons)</span>
+                  Welcome to <span className="text-green-700"> B.Ed. (Hons)</span>
                 </h1>
                 <p className="mt-4 text-xl font-medium text-gray-600 content-entry-animation" style={{ animationDelay: '0.3s' }}>
                     {title}
