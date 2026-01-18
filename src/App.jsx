@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Navbar from './components/navbar';
 // HeroSection import remove kar diya hai
 import StudentPortal from './components/studentportal'; 
-import AdminLogin from './components/AdminLogin'; 
+import AdminLogin from './components/adminlogin'; 
 import Home from './components/home';
 import Outline from './components/outlines';
 import Portfolio from './components/portfolios';
