@@ -51,17 +51,22 @@ const Home = ({ setContentType }) => {
         return url; 
     };
 
-    // --- ANIMATION STYLES (UPDATED: Scroll Down / Top to Bottom) ---
+    // --- ANIMATION STYLES (Professional Seamless Scroll) ---
     const styles = `
-        @keyframes scrollDown {
-            0% { transform: translateY(-50%); }
-            100% { transform: translateY(0); }
+        @keyframes scrollUp {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-50%); }
         }
         .news-ticker {
-            animation: scrollDown 40s linear infinite;
+            animation: scrollUp 50s linear infinite;
         }
         .news-ticker:hover {
             animation-play-state: paused;
+        }
+        /* Gradient Mask for Smooth Fade In/Out */
+        .notice-mask {
+            mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+            -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
         }
     `;
 
@@ -97,36 +102,40 @@ const Home = ({ setContentType }) => {
                         </div>
                     </div>
 
-                    {/* 2. NOTICE BOARD (With Animation Top to Bottom) */}
-                    <div className="w-full h-[300px] md:h-[350px] bg-white rounded-2xl shadow-xl border-4 border-white overflow-hidden flex flex-col">
+                    {/* 2. NOTICE BOARD (Professional Animated) */}
+                    <div className="w-full bg-white rounded-2xl shadow-xl border-4 border-white overflow-hidden flex flex-col">
                         
                         {/* Header */}
-                        <div className="bg-[#004d00] p-4 flex items-center justify-between shrink-0 z-10 relative shadow-md">
+                        <div className="bg-[#004d00] p-4 flex items-center justify-between shrink-0 z-20 relative shadow-md">
                             <h3 className="text-lg font-bold text-white flex items-center tracking-wide">
-                                <Icons.Bell /> <span className="ml-3">NOTICE BOARD</span>
+                                <Icons.Bell /> <span className="ml-3">Notice Board</span>
                             </h3>
                             <div className="flex items-center gap-2">
                                 <span className="h-2 w-2 bg-red-500 rounded-full animate-ping"></span>
-                                <span className="text-[10px] text-white font-bold bg-white/20 px-2 py-1 rounded">LATEST UPDATES</span>
+                                <span className="text-[10px] text-white font-bold bg-white/20 px-2 py-1 rounded">UPDATES</span>
                             </div>
                         </div>
 
-                        {/* Animated Content */}
-                        <div className="flex-1 overflow-hidden relative bg-gray-50">
+                        {/* Animated Content Container with Fixed Height & Mask */}
+                        <div className="h-[350px] overflow-hidden relative bg-gray-50 notice-mask">
                             {notices.length === 0 ? (
                                 <div className="h-full flex flex-col items-center justify-center text-gray-400">
                                     <span className="text-4xl mb-2">📭</span>
                                     <p className="text-sm">No new notices posted.</p>
                                 </div>
                             ) : (
+                                // Wrapper for smooth scrolling
                                 <div className="news-ticker p-4 space-y-4">
-                                    {/* Duplicating notices to create seamless loop */}
+                                    {/* Duplicating notices for Seamless Loop */}
                                     {[...notices, ...notices].map((notice, index) => (
-                                        <div key={`${notice.id}-${index}`} className="bg-white p-4 rounded-xl border-l-4 border-l-[#004d00] border-t border-r border-b border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                                        <div key={`${notice.id}-${index}`} className="bg-white p-5 rounded-xl border-l-4 border-l-[#004d00] border border-gray-100 shadow-sm hover:shadow-md transition-all hover:bg-green-50/30">
                                             
                                             {/* Date Badge */}
-                                            <div className="flex items-center text-[10px] font-bold text-[#004d00] mb-2 bg-green-50 w-fit px-2 py-1 rounded">
-                                                <Icons.Calendar /> <span className="ml-1">{notice.date}</span>
+                                            <div className="flex items-center justify-between mb-2">
+                                                <div className="flex items-center text-[10px] font-bold text-[#004d00] bg-green-100 w-fit px-2 py-1 rounded">
+                                                    <Icons.Calendar /> <span className="ml-1">{notice.date}</span>
+                                                </div>
+                                                {index < 2 && <span className="text-[9px] text-white bg-red-500 px-2 py-0.5 rounded-full font-bold animate-pulse">NEW</span>}
                                             </div>
 
                                             {/* Text */}
@@ -150,9 +159,9 @@ const Home = ({ setContentType }) => {
                                                             href={convertDriveLink(notice.fileUrl) || notice.fileUrl} 
                                                             target="_blank" 
                                                             rel="noreferrer"
-                                                            className="flex items-center justify-center w-full bg-red-50 text-red-600 px-4 py-2 rounded-lg text-xs font-bold hover:bg-red-100 transition border border-red-100"
+                                                            className="flex items-center justify-center w-full bg-[#004d00]/10 text-[#004d00] px-4 py-2.5 rounded-lg text-xs font-bold hover:bg-[#004d00] hover:text-white transition-colors border border-[#004d00]/20"
                                                         >
-                                                            <Icons.Download /> <span className="ml-2">Download PDF</span>
+                                                            <Icons.Download /> <span className="ml-2">Download Attachment</span>
                                                         </a>
                                                     )}
                                                 </div>
