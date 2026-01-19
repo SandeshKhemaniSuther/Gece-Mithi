@@ -69,7 +69,7 @@ export const pastPapersData = [
         id: 7,
         title: "Semester 7",
         desc: "Pedagogy & Specialization 1.",
-          link: "https://drive.usercontent.google.com/download?id=14ZB5ifXtUerWC4oXR3OeiRQYD8fMjbG2&export=download&authuser=0&confirm=t&uuid=6660cea1-7686-4a15-88f5-fc028dbbcf0a&at=ANTm3cyH7kxFSjG7fFQo6C2jMJ_D:1768546915052",
+          link: "https://drive.usercontent.google.com/download?id=1oYXOrpDcjjMMH1M4vsW2ZoPd8krl3Snn&export=download&authuser=0&confirm=t&uuid=cddccfa8-6a03-40cd-acf8-fefffd81cebc&at=ANTm3cyCzgHxrZub0zbhbLuccPag:1768837736960",
         color: "bg-red-50 text-red-700 border-red-200",
       },
       {
