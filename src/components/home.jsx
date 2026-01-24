@@ -161,7 +161,7 @@ const Home = ({ setContentType }) => {
                                                             rel="noreferrer"
                                                             className="flex items-center justify-center w-full bg-[#004d00]/10 text-[#004d00] px-4 py-2.5 rounded-lg text-xs font-bold hover:bg-[#004d00] hover:text-white transition-colors border border-[#004d00]/20"
                                                         >
-                                                            <Icons.Download /> <span className="ml-2">Download Attachment</span>
+                                                            <Icons.Download /> <span className="ml-2">Download</span>
                                                         </a>
                                                     )}
                                                 </div>

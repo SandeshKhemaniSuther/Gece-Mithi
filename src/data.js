@@ -69,14 +69,14 @@ export const pastPapersData = [
         id: 7,
         title: "Semester 7",
         desc: "Pedagogy & Specialization 1.",
-          link: "https://drive.usercontent.google.com/download?id=1oYXOrpDcjjMMH1M4vsW2ZoPd8krl3Snn&export=download&authuser=0&confirm=t&uuid=cddccfa8-6a03-40cd-acf8-fefffd81cebc&at=ANTm3cyCzgHxrZub0zbhbLuccPag:1768837736960",
+          link: "https://drive.usercontent.google.com/download?id=1dKxKri9xpY7hZYCBvbRXtQk2JtdDRV11&export=download&authuser=0&confirm=t&uuid=fe5c21d1-4eb4-4758-8413-c35f11ebcbf6&at=APcXIO0pfZEY5rsrjhrR1Nt9xEMI:1769237977776",
         color: "bg-red-50 text-red-700 border-red-200",
       },
       {
         id: 8,
         title: "Semester 8",
         desc: "Specialization 2 & Thesis.",
-         link: "https://drive.usercontent.google.com/download?id=1jpuHr6QGZLkDkCAV-hTFG0ruc4bmdkdh&export=download&authuser=0&confirm=t&uuid=dcd965e6-18b2-45a9-8cda-4c8277def14d&at=ANTm3cxysPUF1weUVaJDCF9eEltw:1768546972845",
+         link: "https://drive.usercontent.google.com/download?id=1yLz3aw5CTvznCQEG3aZBwRQuIlqKZAjn&export=download&authuser=0&confirm=t&uuid=599fef8e-6325-49b2-be43-030e2f2a2f58&at=APcXIO0Z9t56FSFyKJaHQodnxajL:1769238071591",
         color: "bg-purple-50 text-purple-700 border-purple-200",
       },
     ],
@@ -158,7 +158,7 @@ export const toolsData = [
   },
   {
     id: 5,
-    title: "Lesson Plan 01",
+    title: "English Lesson Plan",
     desc: "Standard Lesson Plan format (Template 1).",
     // 👇 YAHAN APNA GOOGLE DRIVE LINK PASTE KAREIN
      link: "https://drive.usercontent.google.com/download?id=1h7ccsAHELXLAHKQXtwh9SAazr348YurN&export=download&authuser=0&confirm=t&uuid=beda46cd-7a56-4756-a2ec-b1a34b946251&at=ANTm3czs3PN6Cj5kxHOycpgW7m8g:1768546326946",
@@ -167,7 +167,7 @@ export const toolsData = [
   },
   {
     id: 6,
-    title: "Lesson Plan 02",
+    title: "Sindhi Lesson Plan",
     desc: "Alternative Lesson Plan format (Template 2).",
     // 👇 YAHAN APNA GOOGLE DRIVE LINK PASTE KAREIN
     link: "https://drive.usercontent.google.com/download?id=1sdvB6ujJErXitrw82e3TS8RVVV3usisv&export=download&authuser=0&confirm=t&uuid=eb4b3e48-f668-4a51-99f7-a75de5eb6245&at=ANTm3cwWXr4pR_vkiu0kR5-2oC09:1768578536584",
