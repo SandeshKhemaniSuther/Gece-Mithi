@@ -161,7 +161,7 @@ export const toolsData = [
     title: "English Lesson Plan",
     desc: "Standard Lesson Plan format (Template 1).",
     // 👇 YAHAN APNA GOOGLE DRIVE LINK PASTE KAREIN
-     link: "https://drive.usercontent.google.com/download?id=1h7ccsAHELXLAHKQXtwh9SAazr348YurN&export=download&authuser=0&confirm=t&uuid=beda46cd-7a56-4756-a2ec-b1a34b946251&at=ANTm3czs3PN6Cj5kxHOycpgW7m8g:1768546326946",
+     link: "https://drive.usercontent.google.com/download?id=1t6oo3KiFpz6SyJBNnMW9DuVczYdHrD_2&export=download&authuser=0&confirm=t&uuid=9ce3b026-81f0-4d45-a084-a87241af68a7&at=APcXIO0xLa_MlL12hXhAtY6v90Xf:1769495797532",
     icon: "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
     color: "bg-red-50 text-red-600 border-red-100",
   },
@@ -433,7 +433,7 @@ const academicDataDownload = [
         name: "EED-581 Foundation of Reading",
         outlineLink:
            "https://drive.usercontent.google.com/download?id=1D1isEPQGzZQ_Hzq4SRBCt9MNn-ofHOCn&export=download&authuser=2&confirm=t&uuid=7eff2f3b-8be3-46fd-99fe-7416b7d9d770&at=ANTm3cwSPyr6cjeZ4w-pSrW-6c_3:1768476213867",
-        notesLink: "https://drive.usercontent.google.com/download?id=1P2KO3t6OcoUudPeUQA6HQ0Iar5TI6mNO&export=download&authuser=0&confirm=t&uuid=b4be9f82-9632-43e6-80a7-7386f58138a2&at=ANTm3cx8TCxM55yfRkieBkgfGeFN:1768545073904",
+        notesLink: "https://drive.usercontent.google.com/download?id=1P2KO3t6OcoUudPeUQA6HQ0Iar5TI6mNO&export=download&authuser=0&confirm=t&uuid=64dfd55d-b882-4421-bc3b-80e8b9d335bb&at=APcXIO0SpPdmZ99iGiZcU2Rc0ETi:1769496171969",
         pastPaperLink: "https://drive.google.com/d/Y3S5C3_PP",
       },
     ],
