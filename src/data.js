@@ -500,7 +500,7 @@ const academicDataDownload = [
         name: "EED-656 Biology",
         outlineLink:
           "https://drive.usercontent.google.com/download?id=13-IAQRmHtQCQE-dB_MYoHsPHNweDHcxO&export=download&authuser=2&confirm=t&uuid=e935bb7c-ffaa-464c-b8e2-f4b6ef4b88b4&at=ANTm3cxI4HvCLT50MK4_sXkjT6Lc:1768476524058",
-        notesLink: "https://drive.google.com/d/Y4S7C2_Notes",
+        notesLink: "https://drive.usercontent.google.com/download?id=1mSVK85Z2ehZIe4VGm8JoffRMMcv2vUV5&export=download&authuser=0&confirm=t&uuid=3bc37816-192a-4768-8c94-eb6ccc291ce3&at=APcXIO3oOrgRvqxLkODiA4HcER9_:1770045010310",
         pastPaperLink: "https://drive.google.com/d/Y4S7C2_PP",
       },
       {
