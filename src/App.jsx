@@ -15,6 +15,7 @@ import AboutUs from './components/aboutus';
 import ContactUs from './components/contactus';
 import Trainings from './components/trainings';
 import Footer from './components/footer';
+import Batches from './components/batches';
 
 // === HOOKS ===
 import useSecurity from './hook/useSecurity';
@@ -37,6 +38,7 @@ export default function App() {
             case 'trainings': return <Trainings />;
             case 'studentportal': return <StudentPortal />;
             case 'admin-login': return <AdminLogin />;
+            case 'batches': return <Batches />;
             default: return <Home setContentType={setContentType} />;
         }
     };

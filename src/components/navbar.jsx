@@ -42,7 +42,9 @@ const Navbar = ({ contentType, setContentType }) => {
             isDropdown: true,
             subItems: [
                 { type: 'about', label: 'About College' },
-                { type: 'trainings', label: 'In-Service Trainings' }
+                { type: 'trainings', label: 'In-Service Trainings' },
+                { type: 'batches', label: 'All Batches' }
+
             ]
         },
 
