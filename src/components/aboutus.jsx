@@ -233,12 +233,12 @@ const facultyData = [
                 { name: "Miss. Marvi Junejo" }
             ]
              },
-        {
-            batch: "Batch 2k25",
-            members: [
-                { name: "Mr. Bhaweesh Gul" }
-            ]
-        }
+        // {
+        //     batch: "Batch 2k25",
+        //     members: [
+        //         { name: "Mr. Bhaweesh Gul" }
+        //     ]
+        // }
 
     ];
 
