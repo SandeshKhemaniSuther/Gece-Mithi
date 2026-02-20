@@ -128,19 +128,22 @@ const AboutUs = () => {
         { id: 3, name: "Sir. Jeetandar Maheshwari", role: "Current Principal", duration: "2024 - Up to yet", img: principal3, isActive: true }
     ];
 
-    const facultyData = [
-        { id: 1, name: "Late Sir. Ganesh Mal", role: "Assistant Professor", duration: "2005 - 2008" },
-        { id: 2, name: "Sir. Tikam Das", role: "Assistant Professor", duration: "2018 - 2022" },
-        { id: 3, name: "Sir. Abdul Wahid Samo", role: "Lecturer", duration: "2012 - 2018" },
-        { id: 4, name: "Sir. Yousif Channa", role: "Lecturer", duration: "2012 - 2018" },
-        { id: 5, name: "Sir. Nihal Chand", role: "Lecturer", duration: "2012 - 2018" },
-        { id: 6, name: "Sir. Mian Bux Kapri", role: "Lecturer", duration: "2012 - 2018" },
-        { id: 7, name: "Sir. Shoaib Riaz", role: "Assistant Professor", duration: "2020 - 2021" },
-        { id: 8, name: "Sir. Nevand Ram", role: "Lecturer", duration: "2020 - 2022" },
-        { id: 9, name: "Sir Krishan Lal", role: "HST", duration: "2004 - 2024" },
-        { id: 10, name: "Sir. Karno Ji Mahraj", role: "Assistant Professor", duration: "2004 - Up to yet", isActive: true }
-    ];
-
+const facultyData = [
+    { id: 1, name: "Late Sir. Ganesh Mal", role: "Assistant Professor", duration: "2005 - 2008" },
+    { id: 2, name: "Sir. Tikam Das", role: "Assistant Professor", duration: "2018 - 2022" },
+    { id: 3, name: "Sir. Abdul Wahid Samo", role: "Lecturer", duration: "2012 - 2018" },
+    { id: 4, name: "Sir. Yousif Channa", role: "Lecturer", duration: "2012 - 2018" },
+    { id: 5, name: "Sir. Nihal Chand", role: "Lecturer", duration: "2012 - 2018" },
+    { id: 6, name: "Sir. Mian Bux Kapri", role: "Lecturer", duration: "2012 - 2018" },
+    { id: 7, name: "Sir. Shoaib Riaz", role: "Assistant Professor", duration: "2020 - 2021" },
+    { id: 8, name: "Sir. Nevand Ram", role: "Lecturer", duration: "2020 - 2022" },
+    { id: 9, name: "Sir Krishan Lal", role: "HST", duration: "2004 - 2024" },
+    { id: 10, name: "Sir. Karno Ji Mahraj", role: "Assistant Professor", duration: "2004 - Up to yet", isActive: true },
+    
+    // --- Naye Teachers Jo Abhi Join Hue Hain ---
+    { id: 11, name: "Mr. Vishal", role: "Lecturer in Computer Science", duration: "2026 - Up to yet", isActive: true },
+    { id: 12, name: "Ms. Cheena Kumari", role: "Lecturer in Chemistry", duration: "2026 - Up to yet", isActive: true }
+];
     const supportingStaffData = [
         { id: 1, name: "Mr. Sandesh Khemani Suther", role: "Website Developer", desc: "Designed and developed this website & composed lecture notes.", duration: "2021 - Present", img: member1 },
         { id: 2, name: "Mr. Bhaweesh Gul Meghwar", role: "Content Coordinator", desc: "Collected study material from college & Compiled notes.", duration: "2025 - Present", img: member2 }
